@@ -1,26 +1,39 @@
-article {
-    margin: 20px;
+body.main {
+    align-content: center;
+    background: rgba(200, 195, 195, 0.957);
 }
+
+h1 {
+    align-self: center;
+}
+
 li {
     display: inline;
-    text-decoration: none;
-
 }
+
 img {
     border-style: groove;
     border-width: 15px;
 }
+
 img.blender {
     border-style: groove;
     width: 1000px;
     border-color: #EA7600;
 }
+
 time {
     background-color: rgb(77, 74, 74);
     color: aliceblue;
     height: 20px;
-    width: 160px;
+    width: 220px;
 }
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
 .head-list {
     align-content: center;
     font-size: 25px;
