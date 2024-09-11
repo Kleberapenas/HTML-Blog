@@ -24,6 +24,18 @@ img.blender {
     border-color: #EA7600;
 }
 
+img.programming {
+    border-style: groove;
+    width: 1000px;
+    border-color: #091be9;
+}
+
+img.books {
+    border-style: groove;
+    width: 1000px;
+    border-color: #dd2f49;
+}
+
 time {
     background-color: rgb(0, 0, 0);
     color: aliceblue;
