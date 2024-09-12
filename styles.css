@@ -1,6 +1,6 @@
 body {
     text-align: center;
-    background: rgba(199, 174, 174, 0.957);
+    background: rgba(173, 164, 164, 0.957);
 }
 
 h1 {
@@ -9,6 +9,7 @@ h1 {
 
 li {
     display: inline;
+    
 }
 
 .wrap {
@@ -60,6 +61,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    transform: scale(1.2);
+}
+
 p {
     white-space: pre;
 }
@@ -72,4 +77,10 @@ p {
     word-spacing: 30px;
     height: 50px;
     background-color: rgb(102, 99, 99);
+}
+
+#descr{
+    margin:auto;
+    width: auto;
+    background: none;
 }
