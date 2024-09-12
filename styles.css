@@ -7,7 +7,7 @@ h1 {
     text-align: center;
 }
 
-li {
+li.vertical {
     display: inline;
     
 }
@@ -85,6 +85,10 @@ p {
     word-spacing: 30px;
     height: 50px;
     background-color: rgb(102, 99, 99);
+}
+
+#hobbies_list{
+    list-style-position:inside;
 }
 
 #descr{
